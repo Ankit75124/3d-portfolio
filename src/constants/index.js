@@ -15,13 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  Glencore,
+  tpvision,
   carrent,
-  jobit,
-  tripguide,
+  ChatGPT,
+  Cryptotracker,
+  Animetrix,
   threejs,
 } from "../assets";
 
@@ -42,19 +41,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Design",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web3 Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Testing and Debugging",
     icon: creator,
   },
 ];
@@ -116,91 +115,58 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Analyst",
+    company_name: "Glencore",
+    icon: Glencore,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Performed Root Cause Analysis on Glencore’s PnL Variance Report and Brainstormed a way to change the methodology and restructured the report,as a result calculation of Pnl Variance time reduced by 80%",
+      "Using Python automated the complete process of creating PnL Variance Report due to which manual dependency reduced to 92%",
+      "Created an Automated Price Checker system for Mexico business related curves to ensure accuracy inpricing. This system compares our prices in ZEMA with those of other counter parties and flags our Risk Manager in the event of any discrepancies. As a result, the chances of sending incorrect invoices due to pricingissues have been reduced by 100%.",
     ],
   },
+
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "SDE Intern",
+    company_name: "TP Vision",
+    icon: tpvision,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2021 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a dynamic gaming interface on Angular.Js",
+      "Designed 6 interactive educational game for kids on Angular.Js",
+      "Implemented Dynamic themes on each game using Material UI",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    place: "Presidency University, Bangalore",
+    stream: "B-Tech CSE",
+    start: "Aug 2018",
+    end: "July 2022",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    place: "V.R Kondi College,Barh",
+    stream: "Intermediate",
+    start: "April 2016",
+    end: "March 2018",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    place: "Krishna Sudarshan Public School, Barh",
+    stream: "10th Standard",
+    start: "April 2015",
+    end: "March 2016",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Animetrix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AnimeTrix is a full-stack anime streaming website using React.js, Node.js, MongoDB, and Chakra UI with user authentication, payment integration, and an admin dashboard. ",
     tags: [
       {
         name: "react",
@@ -215,50 +181,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Animetrix,
+    source_code_link: "https://github.com/Ankit75124/animetrix",
   },
   {
-    name: "Job IT",
+    name: "ChatGPT Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A ChatGPT clone was developed with Next.js, Node.js, Firebase, Tailwind CSS. Utilized ChatGPT API, Firebase, and Tailwind CSS for UI design.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ChatGPT,
+    source_code_link: "https://github.com/Ankit75124/chatgpt-clone",
+  },
+  {
+    name: "Crypto Price Tracker",
+    description:
+      "A React-based cryptocurrency price tracker that uses CoinGecko API to fetch real-time data and Chart.js for graphical representation of prices..",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Material UI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Cryptotracker,
+    source_code_link: "https://github.com/Ankit75124/crypto_tracker",
   },
 ];
 

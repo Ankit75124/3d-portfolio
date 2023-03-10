@@ -21,16 +21,24 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import tpvision from "./company/tpvision.jpeg";
+import Glencore from "./company/glencore.jpg";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+
+import Animetrix from "./Animtrix.png";
+import ChatGPT from "./Chatgpt.png";
+import Cryptotracker from "./Cryptotracker.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  Animetrix,
+  ChatGPT,
+  Cryptotracker,
   logo,
   backend,
   creator,
@@ -52,11 +60,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  Glencore,
   shopify,
   starbucks,
   tesla,
   carrent,
   jobit,
   tripguide,
+  tpvision
 };
