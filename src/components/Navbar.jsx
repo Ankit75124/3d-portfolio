@@ -31,10 +31,10 @@ const Navbar = () => {
             <img src={linkedin} alt="logo" className="w-9 h-9 object-contain" />
           </a>
 
-          <a href="https://www.linkedin.com/in/rajankit24/" target="blank">
+          <a href="https://leetcode.com/Ankit75124/" target="blank">
             <img src={leetcode} alt="logo" className="w-9 h-9 object-contain" />
           </a>
-          <a href="https://www.linkedin.com/in/rajankit24/" target="blank">
+          <a href="https://github.com/Ankit75124" target="blank">
             <img src={github} alt="logo" className="w-9 h-9 object-contain" />
           </a>
         </div>
