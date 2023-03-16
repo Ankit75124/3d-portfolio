@@ -30,6 +30,10 @@ import tesla from "./company/tesla.png";
 import Animetrix from "./Animtrix.png";
 import ChatGPT from "./Chatgpt.png";
 import Cryptotracker from "./Cryptotracker.png";
+import linkedin from "./linkedin.png";
+import leetcode from "./leetcode.png";
+
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,5 +71,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  tpvision
+  tpvision,
+  linkedin,
+  leetcode,
 };

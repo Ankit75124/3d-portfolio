@@ -2,7 +2,7 @@ import React, {useEffect,useState} from 'react';
 import { Link } from 'react-router-dom';
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import { logo,menu, close } from "../assets";
+import { logo,menu, close,linkedin,github,leetcode } from "../assets";
 
 const Navbar = () => {
   const[active,setActive]=useState("");
@@ -26,10 +26,17 @@ const Navbar = () => {
             <span className="sm:block hidden"> Raj</span>
           </p>
         </Link> */}
-        <div className=" flex gap-2 ">
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+        <div className=" flex items-center gap-2 ">
+          <a href="https://www.linkedin.com/in/rajankit24/" target="blank">
+            <img src={linkedin} alt="logo" className="w-9 h-9 object-contain" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/rajankit24/" target="blank">
+            <img src={leetcode} alt="logo" className="w-9 h-9 object-contain" />
+          </a>
+          <a href="https://www.linkedin.com/in/rajankit24/" target="blank">
+            <img src={github} alt="logo" className="w-9 h-9 object-contain" />
+          </a>
         </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
